@@ -79,6 +79,7 @@ WSGI_APPLICATION = 'sihbackend.wsgi.application'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # Adjust this to match your React app's origin
     # all origins
+    'http://localhost:3001/',
     
 ]
 
